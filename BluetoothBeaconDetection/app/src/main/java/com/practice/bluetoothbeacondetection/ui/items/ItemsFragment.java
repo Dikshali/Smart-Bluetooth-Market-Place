@@ -172,7 +172,7 @@ public class ItemsFragment extends Fragment implements ItemsAdapter.ItemsCartInt
 //                    else if(maxEntry.getKey()==null && itemRegion!=null){
                         itemRegion=null;
                         getActivity().runOnUiThread(() -> {
-                            itemsAdapter = new ItemsAdapter(getContext(), hm.get("grocery"), ItemsFragment.this::addToCart);
+                            itemsAdapter = new ItemsAdapter(getContext(), hm.get("all"), ItemsFragment.this::addToCart);
                             recyclerView.setAdapter(itemsAdapter);
                             Toast.makeText(getContext(),"All Products", Toast.LENGTH_LONG).show();
                         });

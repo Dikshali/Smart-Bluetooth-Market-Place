@@ -42,4 +42,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6' ////gson
     implementation 'com.googlecode.json-simple:json-simple:1.1'
     implementation 'com.stripe:stripe-android:11.2.0'
+    implementation 'com.estimote:sdk:1.0.12'
 }

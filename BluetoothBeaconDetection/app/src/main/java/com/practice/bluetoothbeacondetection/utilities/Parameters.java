@@ -5,8 +5,8 @@ public final class Parameters {
     public static final String EMPTY_ERROR_MESSAGE = "Please fill in the details!";
     public static final String MESSAGE = "message";
     public static final CharSequence INCORRECT_CONFIRM_PASSWORD = "Incorrect Confirm Password!";
-    public static final String API_URL = "https://smart-market-place.herokuapp.com";
-    public static final String API_URL_LOCAL = "http://10.0.2.2:3000";
+    //public static final String API_URL_SERVER = "https://smart-market-place.herokuapp.com";
+    public static final String API_URL = "https://profile-application.herokuapp.com";
 
     public static final String ITEMS_ITEM_NAME = "name";
     public static final String ITEMS_ITEM_REGION = "region";

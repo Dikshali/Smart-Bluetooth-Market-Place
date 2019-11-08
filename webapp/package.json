@@ -1,0 +1,45 @@
+{
+  "name": "api_web_app",
+  "version": "1.0.0",
+  "description": "Advanced Mobile Application Development API",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dikshali/Smart-Bluetooth-Market-Place.git"
+  },
+  "start": "node server",
+  "author": "Kshitij Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dikshali/Smart-Bluetooth-Market-Place/issues"
+  },
+  "homepage": "https://github.com/Dikshali/Smart-Bluetooth-Market-Place#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "braintree": "^2.20.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "mongoose": "~4.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-float": "^1.0.4",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "stripe": "^7.10.0"
+  }
+}
